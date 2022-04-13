@@ -1,9 +1,10 @@
 let handler  = async (m, { conn }) => {
-  conn.reply(m.chat,`*┌────「 VERDAD 」─*\n*“${pickRandom(global.verdad)}”*\n*└────「 𝐒𝐇𝐀𝐃𝐎𝐖 」─*`, m)
+  conn.reply(m.chat,`*┌────「 BUEN DIA 」─*\n*“${pickRandom(global.verdad)}”*\n*└────「 PAIN-BOT 」─*`, m)
 }
 handler.help = ['verdad']
 handler.tags = ['General']
-handler.command = /^(verdad)$/i
+handler.customPrefix = /Buenos dias|Buenos días|buenos días|buen dia|buen día|Buen dia|Buen día|verdad|Verdad/
+handler.command = new RegExp
 handler.owner = false
 handler.mods = false
 handler.premium = false
