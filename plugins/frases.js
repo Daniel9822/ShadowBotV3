@@ -4,5 +4,5 @@ let res = await fetch("https://api-alc.herokuapp.com/api/other/frases?apikey=Con
 let json = await res.json()
 let { frase } = json
 conn.reply(m.chat, `*┏━━━━━━━━━━━━━━━━┓*\n*┠❧  ${frase}*\n*┗━━━━━━━━━━━━━━━━┚*`, m)}
-handler.command = /^(frase|frases|frace|fraces)$/i
+handler.command = /^(hola|ola|Hola🤖|ola🤖)$/i
 module.exports = handler
