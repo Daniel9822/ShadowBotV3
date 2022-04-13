@@ -3,7 +3,7 @@ let handler  = async (m, { conn }) => {
   }
   handler.help = ['allfrases']
   handler.tags = ['frases']
-  handler.customPrefix = /Buenos dias|Buenos días|buenos días|buenos días|buenas|Buenas/
+  handler.customPrefix = /Buenos dias|Buenos días|buenos dias|buenos días|buen dia|Buen dia|Buen día|buen día|buenas|Buenas/
   handler.command = new RegExp 
   handler.owner = false
   handler.mods = false
