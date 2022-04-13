@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true
 })
 }
-handler.customPrefix = /gay|Gay|pato|Pato/
+handler.customPrefix = /gay|Gay|puto|Puto/
 handler.command = new RegExp
 module.exports = handler
